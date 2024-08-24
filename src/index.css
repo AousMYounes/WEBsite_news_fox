@@ -1,0 +1,731 @@
+body {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.d1 {
+  position: relative;
+  display: inline-block;
+  justify-content:baseline;
+  align-items: center;
+ 
+}
+
+#basic-nav-dropdown {
+  background-color: #e7a03d !important;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+ 
+}
+.badge{
+  background-color: #e7a03d !important;
+}
+.btn{
+  background-color: #e7a03d !important;
+  color: #fff !important;
+}
+.text{
+  color: #e7a03d !important;
+}
+.c1{
+  height: 350px !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.l1{
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  
+}
+.l1:hover{
+  color: #e7a03d !important;
+}
+.l1:focus{
+  color: #e7a03d !important;
+}
+.l2{
+  color: #fff !important;
+  font-size: 1.2rem !important;
+}
+.l3:hover{
+background-color:  #e7a03d !important;
+color:#fff !important;
+}
+.vv{
+  background-image: url(./assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: auto !important;
+  width: 100%;
+  height: 100vh !important;
+  margin-top: -16px;
+}
+#tt{
+  color: #fff !important;
+
+}
+#HomeImage{
+  width: 450px;
+  height: 450px;
+  margin: 50px 10px !important;
+  
+}
+#ttt{
+  margin-left:100px !important;
+}
+#HomeImage{
+  width: 450px;
+  height: 450px;
+  
+ 
+  animation: updown 3s linear infinite;
+}
+@keyframes updown{
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+#hoome button{
+  color: #fff;
+  background-color: #e7a03d;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-left: 150px;
+  padding-left: 20px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center !important;
+  width: 210px;
+  height: 75px;
+  border: none;
+  border-radius: 15px;
+}
+#hoome button svg{
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+#hoome button:hover svg{
+  margin-left: 25px;
+
+}
+#f1{
+  margin:0 auto !important;
+  font-size: 1.2rem !important;
+
+}
+#fbtn{
+  font-size: 1.2rem;
+  border: none !important;
+  margin:0 -20px !important;
+}
+.fctn{
+  size: 100 !important;
+  width: 150px !important;
+  height: 40px !important;
+}
+Nav .cv{
+  margin: 0 270px !important;
+  text-align: center !important;
+}
+.c22 .c1{
+  border: .1rem solid rgba(240, 237, 237, 0.2);
+    box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: all .2s ease-in; 
+}
+.c22 .c1:hover{
+  scale: 1.1;
+}
+.cl0{
+  position: relative;
+}
+.cl2{
+  background-color: #e7a03d !important;
+  height:1000px;
+  
+}
+.cl2 .cl21{
+  width: 100%;
+  height:300px ;
+  background-color: #ec941a !important;
+  margin: 0 0;
+  padding: 0 0;
+ 
+
+}
+
+.cl21 .cl211 a i{
+  color: #eee !important;
+  margin-right: 15px !important;
+  margin-left: 20px !important;
+}
+.cl21 .cl211 button{
+  margin-right: 15px !important;
+  margin-left: 20px !important;
+ background-color: inherit !important;
+ border: 1px solid #fff !important;
+ color: #fff !important;
+ height: 40px !important;
+ width: 130px !important;
+ font-size: 1.2rem !important;
+ font-weight: bold !important;
+}
+.cl21 .cl211 button:hover{
+  background-color: #fff !important;
+  color:#22252c !important;
+}
+.cl21 .cl211 a i:hover{
+  color: #fff !important;
+}
+.cl2 .cl22{
+  width: 100%;
+  height:300px ;
+  background-color: #ea9928 !important;
+}
+.cl2 .cl23{
+  width: 100%;
+  height:300px ;
+  background-color: #e7a03d !important;
+}
+
+ .cl3{
+  position: absolute;
+  border: 2px solid #fff !important;
+  border-radius: 15px !important;
+  box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+  overflow: hidden;
+  
+  margin: auto !important; 
+ z-index: 4;
+}
+
+.hcontact{
+  margin-left: 50px !important;
+  font-size: 2.5rem !important;
+  line-height: 1.4rem !important;
+}
+.pcontact{
+  width: 500px !important;
+  height: 350px !important;
+  margin-left: 50px !important;
+}
+.icontactP{
+  width: 250px !important;
+  height: 300px !important;
+  margin-left: 50px !important;
+  background-color: #e7a03d;
+}
+.icontact{
+  width: 350px;
+  margin-left: 50px !important;
+  margin-top: -150px !important;
+}
+.icontact1{
+  width: 350px;
+  margin-left: 50px !important; 
+}
+.icontact2{
+  width: 350px;
+  margin-left: 50px !important; 
+}
+.icontact3{
+  width: 480px;
+  margin-left: 50px !important; 
+}
+i{
+  color: #e7a03d !important;
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  position: relative;
+
+}
+.follow .content{
+  display: inline-block !important;
+  margin-right: 35px !important;
+ 
+  
+}
+.car1{
+  
+  background: #22252c;
+  width: 100% !important;
+  height: 80vh !important;
+}
+.h1h1{
+  text-align: center !important;
+  margin-right: 130px  !important;
+}
+.h1h1ct{
+  color: #fff;
+}
+.c6 .c61{
+  border: .1rem solid rgba(240, 237, 237, 0.2);
+    box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+    position: relative;
+    overflow: hidden;
+    height: 450px !important;
+    transition: all .2s ease-in; 
+}
+.c6 .c61:hover{
+  scale: 1.1;
+}
+.c6 .c61 .c62 Button{
+  background-color: #e7a03d !important;
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.c6 .c61 .c62 Button:hover{
+  background-color: #fff !important;
+  color: #22252c !important;
+  font-size: 1.2rem !important;
+}
+.car2{
+  
+  background: #22252c;
+  width: 100% !important;
+  height: 150vh !important;
+}
+.h1h1{
+  margin-left: 115px !important;
+}
+.h1h1ct2{
+  color: #fff;
+}
+.c7 .c71{
+  border: .1rem solid rgba(240, 237, 237, 0.2);
+    box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+    position: relative;
+    overflow: hidden;
+    height: 450px !important;
+    transition: all .2s ease-in; 
+}
+.c7 .c71:hover{
+  scale: 1.1;
+}
+.c7 .c71 .c72 Button{
+  background-color: #e7a03d !important;
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.c7 .c71 .c72 Button:hover{
+  background-color: #fff !important;
+  color: #22252c !important;
+  font-size: 1.2rem !important;
+}
+.contactto{
+  width: 100% !important;
+  height: 50vh !important;
+  background-color: #e7a03d !important;
+  text-align: center !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 50px !important;
+}
+.contactto .Bcontactto{
+  width: 150px !important;
+  height: 50px !important;
+  background-color:#e7a03d !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+}
+.contactto .Bcontactto:hover{
+  background-color:#fff !important;
+  color: #22252c !important;
+  border: 2px solid #fff !important;
+}
+/* responsiv */
+@media (max-width:450px){
+  html{
+      font-size: 60%; 
+  }
+  Nav .cv{
+    margin:auto !important;
+    text-align: center !important;
+    
+  }
+  #fbtn{
+    font-size: 1rem;
+    border: none !important;
+    
+    margin:0 -200px !important;
+    text-align: center !important;
+  }
+  .fctn{
+    size: 100 !important;
+    width: 150px !important;
+    height: 35px !important;
+    margin:auto !important;
+    text-align: center !important;
+  }
+  .vv{
+    background-image: url(./assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:auto !important;
+    
+    width: 100% !important;
+    height: 100vh !important;
+    margin-top: -16px;
+  }
+  #hoome #ttt{
+  
+    text-align: center !important;
+    margin: auto !important;
+  }
+  #hoome button{
+    margin:auto !important ;
+  }
+  .c6{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .c6 .c61{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+  .c7{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .c7 .c71{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+  .contactto .H2contactto{
+    font-size: 1.8rem !important;
+  }
+  .contactto .Bcontactto{
+    font-size: 1.5rem !important;
+  }
+  .cl3{
+    position: absolute;
+    border: 2px solid #fff !important;
+    border-radius: 15px !important;
+    box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+    overflow: hidden;
+   top: 950px !important;
+   left: 10px !important;
+   right: 15px !important;
+    width: 90% !important;
+    height: 450px !important;
+    line-height: 3.5rem !important;
+    margin: auto !important; 
+   z-index: 4;
+  }
+  .cl1 .hcontact{
+    margin-left: 0px !important;
+  }
+  .cl1 .pcontact{
+    margin-left: 0px !important;
+  }
+  .cl1 .icontact{
+    margin-left: 0px !important;
+  }
+  .cl1 .icontact1{
+    margin-left: 0px !important;
+  }
+  .cl1 .icontact2{
+    margin-left: 0px !important;
+  }
+  .cl1 .icontact3{
+    margin-left: 0px !important;
+    margin-bottom: 50px !important;
+  }
+  .cl2 .cl21 .cl211{
+    margin-bottom:50px !important;
+    text-align: center;
+  
+  }
+}
+
+
+
+
+@media (max-width:768px){
+  html{
+    font-size: 60%; 
+}
+Nav .cv{
+  margin:auto !important;
+  text-align: center !important;
+  
+}
+#fbtn{
+  font-size: 1.2rem;
+  border: none !important;
+  height: 35px !important;
+  margin:0 -150px !important;
+  text-align: center !important;
+}
+.fctn{
+  size: 100 !important;
+  width: 150px !important;
+  height: 35px !important;
+  margin:auto !important;
+  
+  font-size: 1.2rem;
+}
+.vv{
+  background-image: url(./assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: auto !important;
+ 
+  width: 100% !important;
+  height: 100vh !important;
+  margin-top: -16px;
+}
+
+#hoome #ttt{
+  
+  text-align: center !important;
+  margin: auto !important;
+}
+#hoome button{
+  margin:auto !important ;
+}
+.c6{
+  width: 100% !important;
+  height: 100% !important;
+}
+.c6 .c61{
+  width: 90% !important;
+  height: auto !important;
+  margin-bottom: 30px !important;
+  margin-left: 23px !important;
+  font-size: 1.3rem !important;
+}
+.c6 .c63{
+  font-size: 1.7rem !important;
+}
+.c7{
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+.c7 .c73{
+  font-size: 1.7rem !important;
+}
+.c7 .c71{
+  width: 90% !important;
+  height: auto !important;
+  margin-bottom: 30px !important;
+  margin-left: 23px !important;
+  font-size: 1.3rem !important;
+  
+}
+.contactto .H2contactto{
+  font-size: 1.8rem !important;
+}
+.contactto .Bcontactto{
+  font-size: 1.5rem !important;
+}
+.cl3{
+  position: absolute;
+  border: 2px solid #fff !important;
+  border-radius: 15px !important;
+  box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+  overflow: hidden;
+ top: 950px !important;
+ left: 10px !important;
+ right: 15px !important;
+  width: 90% !important;
+  height: 450px !important;
+  line-height: 3.5rem !important;
+  margin: auto !important; 
+ z-index: 4;
+}
+.cl1 .hcontact{
+  margin-left: 0px !important;
+}
+.cl1 .pcontact{
+  margin-left: 0px !important;
+}
+.cl1 .icontact{
+  margin-left: 0px !important;
+}
+.cl1 .icontact1{
+  margin-left: 0px !important;
+}
+.cl1 .icontact2{
+  margin-left: 0px !important;
+}
+.cl1 .icontact3{
+  margin-left: 0px !important;
+  margin-bottom: 50px !important;
+}
+.cl2 .cl21 .cl211{
+  margin-bottom:50px !important;
+  text-align: center;
+
+}
+}
+
+@media (max-width:991px){
+  html{
+    font-size: 60%; 
+}
+.vv{
+  background-image: url(./assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: auto !important;
+  
+  width: 100%;
+  height: 100vh !important;
+  margin-top: -16px;
+}
+Nav .cv{
+  margin:auto !important;
+  text-align: center !important;
+  
+}
+
+#fbtn{
+  font-size: 1.2rem;
+  border: none !important;
+  height: 35px !important;
+  margin:0 -150px !important;
+  text-align: center !important;
+}
+.fctn{
+  size: 100 !important;
+  width: 150px !important;
+  height: 35px !important;
+  margin:auto !important;
+  
+  font-size: 1.2rem;
+}
+#hoome #ttt{
+  
+  text-align: center !important;
+  margin: auto !important;
+}
+#hoome button{
+  margin:auto !important ;
+}
+.c6{
+  width: 100% !important;
+  height: 100% !important;
+}
+.c6 .c61{
+  width: 90% !important;
+  height: auto !important;
+  margin-bottom: 30px !important;
+  margin-left: 23px !important;
+  margin-right: 23px !important;
+  font-size: 1.3rem !important;
+}
+.c6 .c63{
+  font-size: 1.7rem !important;
+}
+.c7{
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+.c7 .c73{
+  font-size: 1.7rem !important;
+}
+.c7 .c71{
+  width: 90% !important;
+  height: auto !important;
+  margin-bottom: 30px !important;
+  margin-left: 23px !important;
+  margin-right: 23px !important;
+  font-size: 1.3rem !important;
+  
+}
+.contactto .H2contactto{
+  font-size: 1.8rem !important;
+}
+.contactto .Bcontactto{
+  font-size: 1.5rem !important;
+}
+.cl3{
+  position: absolute;
+  border: 2px solid #fff !important;
+  border-radius: 15px !important;
+  box-shadow: 0 .5rem 1.5rem rgba(169, 168, 168, 0.2);
+  overflow: hidden;
+ top: 900px !important;
+ left: 100px !important;
+ right: 150px !important;
+  width: 60% !important;
+  height: 450px !important;
+  line-height: 3.5rem !important;
+  margin: auto !important; 
+ z-index: 4;
+}
+.cl1{
+  width: 100% !important;
+}
+.cl1 .hcontact{
+  margin-left: 0px !important;
+}
+.cl1 .pcontact{
+  margin-left: 0px !important;
+  
+}
+.cl1 .icontact{
+  margin-left: 0px !important;
+ 
+}
+.cl1 .icontact1{
+  margin-left: 0px !important;
+  
+}
+.cl1 .icontact2{
+  margin-left: 0px !important;
+}
+.cl1 .icontact3{
+  margin-left: 0px !important;
+  margin-bottom: 50px !important;
+}
+.cl2{
+  width: 100% !important;
+}
+.cl2 .cl21 .cl211{
+  margin-bottom:50px !important;
+  text-align: center;
+  
+
+}
+}
+
+@media (max-width:1400px){
+  .vv{
+    background-image: url(./assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto !important;
+    
+    width: 100%;
+    height: 100vh !important;
+    margin-top: -16px;
+  }
+
+}
